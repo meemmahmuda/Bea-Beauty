@@ -1,0 +1,194 @@
+@media(max-width: 1199px){
+	.body1-txt h3{
+		font-size: 40px;
+	}
+
+	.body1-content{
+		background-size: cover;
+	}
+}
+
+
+@media(max-width: 991px){
+
+	.menu{
+		display: none;
+	}
+
+	.menu-icon{
+		display: block;
+		text-align: right;
+		font-size: 30px;
+	}
+
+	.mobile-menu{
+		border-top: 1px solid #fff;
+		margin-top: 20px;
+	}
+
+	.mobile-menu ul li a{
+		  font-family: 'Playfair Display', serif;
+		  color: #fff;
+		  font-size: 19px;
+		  text-transform: capitalize;
+		  display: block;
+		  text-align: right;
+		  padding-top: 10px;
+		  
+	}
+
+	
+	.body4-circle{
+		width: 400px;
+		height: 400px;
+		bottom: -15%;
+	}
+
+	.text4{
+	  position: relative;
+	  width: 70%;
+	  height: 70%;
+	  animation: anim 10s linear infinite;
+	}
+
+	.text4 span{
+	  position: absolute;
+	  left: 52%;
+	  top: 10%;
+	  font-size: 1em;
+      transform-origin: 0 100px;
+	  
+}
+
+
+@media(max-width: 767px){
+
+	.body4-circle{
+		width: 280px;
+		height: 280px;
+		bottom: 0;
+	}
+
+	.text4{
+	  position: relative;
+	  width: 70%;
+	  height: 70%;
+	  animation: anim 10s linear infinite;
+	}
+
+	.text4 span{
+	  position: absolute;
+	  left: 52%;
+	  top: 10%;
+	  font-size: .8em;
+      transform-origin: 0 80px;
+	  
+}
+
+}
+
+
+@media(max-width: 575px){
+
+	.body1-txt{
+		border-radius: 350px 350px 350px  350px;
+	}
+
+	.body1-txt h3{
+		font-size: 30px;
+	}
+	
+	.text h5{
+	  font-size: 12px;
+	  color: #000;
+	  font-family: 'Playfair Display', serif;
+	}
+
+	.body1-circle{
+	  position: absolute;
+	  background: #b7947e;
+	  width: 180px;
+	  height: 180px;
+	  bottom: 0;
+	  left: 0;
+	  border-radius: 50%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.text{
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  animation: anim 10s linear infinite;
+	}
+
+	@keyframes anim{
+	  0%{
+	    transform: rotate(0deg);
+	  }
+	  100%{
+	    transform: rotate(360deg);
+	  }
+	}
+
+	.text span{
+	  position: absolute;
+	  left: 49%;
+	  top: 17%;
+	  font-size: 1.2em;
+	  transform-origin: 0 60px;
+	}
+	
+
+	.body3-content h3{
+	  font-size: 25px;
+	}
+
+	.body3-content p{
+	  font-size: 15px;
+	}
+
+	.body4-circle{
+		width: 160px;
+		height: 160px;
+		bottom: 15%;
+	}
+
+	.text4{
+	  position: relative;
+	  width: 60%;
+	  height: 60%;
+	  animation: anim 10s linear infinite;
+	}
+
+	.text4 span{
+	  position: absolute;
+	  left: 52%;
+	  top: 10%;
+	  font-size: .4em;
+      transform-origin: 0 40px;
+	  
+    }
+
+    .body4-title h3{
+    	font-size: 43px;
+    }
+
+    .body4-title p{
+    	font-size: 15px;
+    }
+
+    .body5-content{
+    	background-position: center;
+    }
+
+    .body8-txt h3{
+    	margin-top: 200px;
+    }
+
+}
+
+
+
